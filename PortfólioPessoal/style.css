@@ -1,0 +1,43 @@
+body {
+    background-color: #343a40;
+    font-family: Poppins;
+    padding: 15px;
+
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-around;
+    background-color: #131518;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    margin-top: -21px;
+    margin-left: -15px;
+    z-index: 30000;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+.menu-item a:hover {
+    transform: scale(1.1)
+}
+
+.card-skills {
+    background-color: white;
+    border: #131518;
+    margin: 40px auto;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.card-skills:hover {
+    transform: scale(1.03);
+}
